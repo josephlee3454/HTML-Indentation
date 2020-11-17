@@ -107,7 +107,12 @@ countPositives(arr)
 //  Every time the array has three evens in a row, print "Even more so!".
 
 function evenodd(arr){
-    
+    odds = 0 
+    evens = 0 
+    for (let i = 0; i <arr.length; i ++)
+        if (arr[i]%2 == 1){
+            odds ++
+        }
 }
 
 
