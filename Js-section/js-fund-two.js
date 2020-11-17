@@ -106,18 +106,33 @@ countPositives(arr)
 //  Every time that array has three odd values in a row, print . "This is odd!"
 //  Every time the array has three evens in a row, print "Even more so!".
 
-function evenodd(arr){
-    odds = 0 
-    evens = 0 
-    for (let i = 0; i <arr.length; i ++)
-        if (arr[i]%2 == 1){
-            odds ++
+function even_odd(arr){
+  let even = 0;
+  let odd = 0;
+  for (let i = 0; i<arr.length; i++)
+  {   
+      if(arr[i]%2){
+        even = even+1
+        odd = 0
+        if(even == 3){
+        console.log("its even")
+      }
+   
+      }
+      else{
+        even = 0
+        odd = odd+1
+        if(odd == 3){
+            console.log("its odd")
         }
+        }
+    
+ 
+  }
 }
 
-
-
-
+arr = [1,2,4,4,5,6,7,9,3]
+even_odd(arr)
 
 
 
@@ -156,18 +171,15 @@ increment(arr)
 // previousLengths(["hello", "dojo", "awesome"]) 
 // should return ["hello", 5, 4]. Hint: Can for loops only go forward?
 function prevlengths(arr){
-    for (let i = 1 ; i<arr.length; i++)
+    for (var i = arr.length - 1; i >= 1; i--)
     {
-       arr[i] =  arr[i-1].length
+       arr[i] = arr[i].length
        console.log(arr)
     }
-    console.log(arr)
-    return arr
+ 
 }
 arr = ["hello", "dojo", "awesome"]
 prevlengths(arr)
-
-
 
 
 
