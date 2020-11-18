@@ -4,14 +4,14 @@
 
 
 function odd(){ //// function with a for loop 
-    num = 0
-    for (i=0;i<20;i++) {
-      num = num+1;
-      if (num%2)
-        console.log(num)
-    }
-  };
-  odd()
+  num = 0
+  for (i=0;i<20;i++) {
+    num = num+1;
+    if (num%2)
+      console.log(num)
+  }
+};
+odd()
 
 
 function odd(){ //// function with a while loop 

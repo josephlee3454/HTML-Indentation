@@ -6,11 +6,11 @@ var word = greeting();
 console.log(word);
 
 
-///                        Varibles    |    Values
+///                        Varibles    |    Values                  
 ///                        ___________________________
 ///                     greeting()     |  return value is "Hello"
-///                     console.log()  |  "World"
-///                       word         |   greeting()
+///                     console.log()  |  "World"                
+///                       word         |   greeting()            
 ///                      console.log   | word = greeting()
 ///                                    |
 ///                                    |
