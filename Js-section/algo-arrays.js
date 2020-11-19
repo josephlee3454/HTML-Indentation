@@ -21,7 +21,7 @@ add()
 // The expected output will be:
 
 
-function mutiply(){
+function mutiply(){ 
     for (i=0;i<arr.length; i++){ 
         multnum = i * arr[i]
         console.log(multnum)
