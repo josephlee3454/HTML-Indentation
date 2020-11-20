@@ -13,7 +13,7 @@ const users = [
     }
 ];
 
-console.log(users[1].name)
+console.log(users[1].age)
 
 console.log(users[0].name)
 
